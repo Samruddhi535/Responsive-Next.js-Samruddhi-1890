@@ -1,0 +1,468 @@
+
+.marpad{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bgim-contain{
+  width:100%;
+  height:100vh;
+  position: relative;
+}
+
+.img{
+  width:100%;
+  height:170.5vh;
+  
+}
+
+.overlay-nav{
+  position:absolute;
+  top:0%;
+  width:100%;
+  height:80px;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  font-size: 30px;
+  
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.btn{
+  font-size: 20px;
+}
+
+.big-font{
+  color:white;
+  font-size: 90px;
+  font-weight: 100;
+  position:absolute;
+  top:200px;
+  
+}
+
+.small-font{
+  color:white;
+  font-size: 25px;
+  position:absolute;
+  top:430px;
+  
+}
+
+.white-cont{
+  position: absolute;
+  top:700px;
+  width:85vw;
+  height:70vh;
+  background-color: rgb(220, 233, 220);
+  border-radius: 25px 25px 0px 0px;
+  /* background-image: url("main\ image.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.gsbtn{
+  position: absolute;
+  top:520px;
+  padding:1em 2.5em;
+  background-color: rgb(43, 74, 228);
+  color:white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight:500;
+}
+
+.pa{
+  position: absolute;
+  top:600px;
+  color:white;
+  font-size: 25px;
+}
+
+.cont-imone{
+  justify-content: space-around;
+}
+
+.cont-ione{
+  width:45%;
+  height:700px;
+  /* background-image: url("taraud.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cont-mone{
+  width:45%;
+  font-size: 25px;
+  color:grey
+}
+
+.three{
+  display:flex;
+  justify-content: space-evenly;
+  width:100%;
+  height:450px;
+}
+
+.o,.tw,.th{
+  width: 400px;
+  height: 400px;
+  
+}
+
+#light-box{
+  width:87%;
+  height:750px;
+  border-radius: 20px;
+  background-color: rgb(231, 242, 247);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.text{
+  width:45%;
+  height:670px;
+  font-size: 23px;
+  
+}
+
+.iimg{
+  width:50%;
+  height:750px;
+  /* background-image: url("girlsimg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.big-num{
+  width: 95%;
+  height:100px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.p1,.p2,.p3{
+  font-size: 25px;
+  color: rgb(159, 140, 140);
+}
+
+.n1,.n2,.n3{
+  font-size: 50px;
+  font-weight: 300;
+}
+.sixpara{
+  font-size: 20px;
+}
+
+.sixpara p{
+  color:grey;
+}
+.row1,.row2,.row3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left1,.left2,.left3,.right1,.right2,.right3{
+  display: flex;
+  justify-content: space-between;
+}
+
+#cut{
+  width:90%;
+  height:670px;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edgy{
+  width:90%;
+  height:670px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.twooo{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edgy{
+  font-size: 15.5px;
+  color:grey;
+}
+
+.icon{
+  width:90%;
+  height:670px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards{
+  width:95%;
+  height:670px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rrow1,.rrow2{
+  display: flex;
+  
+}
+
+.cc1,.cc2,.cc3,.cc4{
+  padding: 2em;
+  background-color: rgb(244, 246, 247);
+}
+
+.think{
+  width: 90%;
+  height: 670px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bo{
+  width:90%;
+  height: 500px;
+  border-radius: 25px;
+  background-color: rgb(244,246,247);
+  display: flex;
+  justify-content: space-around;
+}
+
+.unlock{
+  width:90%;
+  height:670px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.insight{
+  width:90%;
+  height:500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sidee{
+  width:90%;
+  height:300px;
+  background-color:rgb(215, 215, 253);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnduo{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reviews{
+  width:90%;
+  height:600px;
+  /* background-image: url("ursamajor.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .bgim-contain, .img, .white-cont {
+      width: 100%;
+    }
+  
+    .overlay-nav {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .logo, .list, .btn {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  
+    .list a {
+      font-size: 16px;
+    }
+  
+    .big-font p {
+      font-size: 2em;
+    }
+  
+    .small-font p {
+      font-size: 16px;
+    }
+  
+    .bt button {
+      padding: 0.5em 1em;
+      font-size: 12px;
+    }
+  
+    .pa p {
+      font-size: 14px;
+    }
+  
+    .white-cont {
+      top: 50vh;
+      width: 100%;
+      height: 50vh;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px to 768px) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .bgim-contain, .img, .white-cont {
+      width: 100%;
+    }
+  
+    .overlay-nav {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .logo, .list, .btn {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+  
+    .list a {
+      font-size: 18px;
+    }
+  
+    .big-font p {
+      font-size: 2.5em;
+    }
+  
+    .small-font p {
+      font-size: 18px;
+    }
+  
+    .bt button {
+      padding: 0.75em 1.5em;
+      font-size: 14px;
+    }
+  
+    .pa p {
+      font-size: 16px;
+    }
+  
+    .white-cont {
+      top: 60vh;
+      width: 100%;
+      height: 60vh;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px to 1024px) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bgim-contain, .img, .white-cont {
+      width: 100%;
+    }
+  
+    .overlay-nav {
+      height: auto;
+    }
+  
+    .logo, .list, .btn {
+      margin-top: 20px;
+      font-size: 22px;
+    }
+  
+    .list a {
+      font-size: 18px;
+    }
+  
+    .big-font p {
+      font-size: 3em;
+    }
+  
+    .small-font p {
+      font-size: 20px;
+    }
+  
+    .bt button {
+      padding: 1em 2em;
+      font-size: 15px;
+    }
+  
+    .pa p {
+      font-size: 18px;
+    }
+  
+    .white-cont {
+      top: 65vh;
+      width: 100%;
+      height: 65vh;
+    }
+  }
+  
+  /* Large devices (laptops, 1024px to 1200px) */
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .bgim-contain, .img, .white-cont {
+      width: 100%;
+    }
+  
+    .overlay-nav {
+      height: auto;
+    }
+  
+    .logo, .list, .btn {
+      margin-top: 25px;
+      font-size: 24px;
+    }
+  
+    .list a {
+      font-size: 20px;
+    }
+  
+    .big-font p {
+      font-size: 3.5em;
+    }
+  
+    .small-font p {
+      font-size: 22px;
+    }
+  
+    .bt button {
+      padding: 1em 2em;
+      font-size: 15px;
+    }
+  
+    .pa p {
+      font-size: 20px;
+    }
+  
+    .white-cont {
+      top: 70vh;
+      width: 100%;
+      height: 70vh;
+    }
+  }
+  
+  /* Ensuring full width for all devices */
+  .bgim-contain, .img, .white-cont {
+    width: 100%;
+  }
+  
